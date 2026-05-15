@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:53 准备开始发起 post 请求, url: login
+[32mINFO    [0m utils.logger_util:request_util.py:54 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+[32mINFO    [0m utils.logger_util:request_util.py:60 接口响应状态码: 200
+[32mINFO    [0m utils.logger_util:request_util.py:61 接口响应内容: {"msg":"用户不存在/密码错误","code":500}

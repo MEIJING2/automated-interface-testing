@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:34 准备发起 get 请求, url: mes/md/workstation/list
+[32mINFO    [0m utils.logger_util:request_util.py:35 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+[32mINFO    [0m utils.logger_util:request_util.py:41 接口响应状态码: 200
+[32mINFO    [0m utils.logger_util:request_util.py:42 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}

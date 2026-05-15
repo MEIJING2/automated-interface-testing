@@ -1,7 +1,6 @@
 """
 测试新增博客
 url: http://www.029tec.com/prod-api/mes/md/workstation
-http://www.029tec.com/prod-api/mes/md/unitmeasure
 method: POST
 """
 import pytest

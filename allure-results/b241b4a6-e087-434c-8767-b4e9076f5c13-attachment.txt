@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:53 准备开始发起 post 请求, url: login
+[32mINFO    [0m utils.logger_util:request_util.py:54 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+[32mINFO    [0m utils.logger_util:request_util.py:60 接口响应状态码: 200
+[32mINFO    [0m utils.logger_util:request_util.py:61 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}

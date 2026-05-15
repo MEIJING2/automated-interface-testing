@@ -1,0 +1,17 @@
+接口测试:
+01. 登录接口
+02. 查询
+03. 新增
+
+
+项目架构:
+cases: 存放测试用例
+data: 存放数据文件, 如 YAML 等
+utils: 存放工具类
+logs: 存放日志
+allure-results: 存放测试数据
+allure-reports: 存放测试报告
+
+
+
+

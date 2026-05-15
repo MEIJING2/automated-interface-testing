@@ -1,0 +1,796 @@
+2026-05-07 09:23:08,612 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,613 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 09:23:08,831 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:08,831 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:23:08,839 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,839 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,840 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:23:08,840 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:23:08,912 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:08,912 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:08,912 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:23:08,912 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:23:08,924 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:23:09,078 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,078 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,078 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,079 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:23:09,079 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:23:09,079 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:23:09,100 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:09,100 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:09,100 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:09,100 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:23:09,101 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:23:09,101 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:23:09,101 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:23:09,101 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:23:09,264 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,264 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,264 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,264 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,265 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg"}
+2026-05-07 09:23:09,265 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg"}
+2026-05-07 09:23:09,265 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg"}
+2026-05-07 09:23:09,265 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg"}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,278 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,351 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,353 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,413 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjYwNzk4ZDMyLWY2MGYtNGY0Zi1hMmQzLTE4YTA2OTZiZDk1NCJ9.Ur8YfDBgEsNdEPxUi1qBaD17-Wm1tT60eFiPdLwZ4I0YMRmHwHLYEm34QiEgBsnomzmnOmLc45MHce7fV-jvqg'}}
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,490 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,491 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,500 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,501 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:23:09,573 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:45,542 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,542 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 09:36:45,746 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,746 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:36:45,754 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,754 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,755 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:36:45,755 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:36:45,828 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,828 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,828 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:36:45,828 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:36:45,839 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:36:45,986 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,986 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,986 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:45,987 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:36:45,987 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:36:45,987 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:36:45,992 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q"}
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q"}
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q"}
+2026-05-07 09:36:46,147 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q"}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,157 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,229 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,230 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,255 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImY3MTVkODlmLWUyOWYtNDYzMi1iNjY4LTU2ZTE1OTRiMzU3NyJ9.pl_PIpGX3_L7FBxmGYkR-KufHP19rsTKhOzZFuowfpZCfhifsx_W6awikWKMR6AfeG6iOBvfROJMiH9VaqkZ-Q'}}
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,333 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,334 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,342 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:36:46,414 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:15,070 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:15,070 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 09:37:22,254 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,254 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:37:22,281 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,281 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,282 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:37:22,282 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:37:22,357 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,357 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,358 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:37:22,358 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:37:22,367 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:37:22,518 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:37:22,524 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,524 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,524 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,524 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:37:22,525 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:37:22,525 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:37:22,525 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:37:22,525 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:37:22,680 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,680 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,680 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,680 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,681 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw"}
+2026-05-07 09:37:22,681 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw"}
+2026-05-07 09:37:22,681 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw"}
+2026-05-07 09:37:22,681 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw"}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,696 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,769 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,794 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,795 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImRiZjQyNWI3LTM0N2UtNGY0MC1iYWJjLWYyOTUwYmRlNGU1ZiJ9.YY3Ewt7IArpNebQzEQ1EjxX643q1Hdm7Gw7EehVuoI5c4iLb3k9AKAa9uJN_FcH-gIm2TvOQAbXPghaOfJDmpw'}}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,875 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,921 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,992 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:37:22,994 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 09:45:57,851 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:57,851 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 09:45:58,055 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,056 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:45:58,077 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,077 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,077 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:45:58,077 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 09:45:58,153 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,153 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,153 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:45:58,153 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:45:58,167 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 09:45:58,320 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,320 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,320 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,322 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:45:58,322 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:45:58,322 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:45:58,328 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjVlYmQwYjIyLWQ2YTItNDIzNC05NzUwLTU5YzU2OWE5OGIyNSJ9.hbK3L30W3zpjzfgTXGqqU2ASzn8UeOtrZIoX8b6Uvftjx-sXAOEU1T4LJfK-D_0UHIjWxIgboVsK91BCKU8l0g"}
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjVlYmQwYjIyLWQ2YTItNDIzNC05NzUwLTU5YzU2OWE5OGIyNSJ9.hbK3L30W3zpjzfgTXGqqU2ASzn8UeOtrZIoX8b6Uvftjx-sXAOEU1T4LJfK-D_0UHIjWxIgboVsK91BCKU8l0g"}
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjVlYmQwYjIyLWQ2YTItNDIzNC05NzUwLTU5YzU2OWE5OGIyNSJ9.hbK3L30W3zpjzfgTXGqqU2ASzn8UeOtrZIoX8b6Uvftjx-sXAOEU1T4LJfK-D_0UHIjWxIgboVsK91BCKU8l0g"}
+2026-05-07 09:45:58,483 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjVlYmQwYjIyLWQ2YTItNDIzNC05NzUwLTU5YzU2OWE5OGIyNSJ9.hbK3L30W3zpjzfgTXGqqU2ASzn8UeOtrZIoX8b6Uvftjx-sXAOEU1T4LJfK-D_0UHIjWxIgboVsK91BCKU8l0g"}
+2026-05-07 10:24:40,920 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:40,920 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 10:24:48,880 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:48,881 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:24:48,893 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:48,893 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:48,894 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 10:24:48,894 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 10:24:48,965 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:48,965 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:48,965 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 10:24:48,965 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 10:24:48,974 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:48,974 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:48,974 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:48,975 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:24:48,975 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:24:48,975 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:24:49,126 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:24:49,132 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:24:49,306 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,306 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,306 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,306 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,307 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g"}
+2026-05-07 10:24:49,307 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g"}
+2026-05-07 10:24:49,307 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g"}
+2026-05-07 10:24:49,307 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g"}
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,329 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,330 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,401 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,402 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,428 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjZiN2NmOTA1LTUxNGUtNDAwMy1iNWMyLTBkNmNiMmM2MGJjNiJ9.VomBJLiL8_sfXUrDki8yOAfBPpGKEpea_a4VL7TQplpmO6xntZpsCmBLbUQTURnE5YQ5UzLnC4YkF39JukOx5g'}}
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,508 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,509 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,533 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,534 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,606 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:24:49,607 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:23,119 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:23,119 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 10:25:24,287 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,287 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:25:24,295 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,295 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,296 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 10:25:24,296 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 10:25:24,372 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,372 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,372 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 10:25:24,372 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:25:24,379 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:25:24,528 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 10:25:24,551 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,551 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,551 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,551 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: login
+2026-05-07 10:25:24,552 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:25:24,552 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:25:24,552 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:25:24,552 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw"}
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw"}
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw"}
+2026-05-07 10:25:24,711 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw"}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,721 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,793 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,794 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,806 INFO [utils.logger_util] [request_util.py (get:32)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,807 INFO [utils.logger_util] [request_util.py (get:33)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjRmN2Q3MTk5LWFlMzQtNGQyYi1iNWM0LTMwZjk1Y2QzYjkwYyJ9.nM-f6LaCbX1ElRNZvhBPLZZOYKyY83mAMnci04dQPiB-mGDoL2s7TVd9B7xn7vqkmCQDNgzR5FC6kTbMp4D-xw'}}
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,886 INFO [utils.logger_util] [request_util.py (get:39)] - 接口响应状态码: 200
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,887 INFO [utils.logger_util] [request_util.py (get:40)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:51)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,897 INFO [utils.logger_util] [request_util.py (post:52)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,973 INFO [utils.logger_util] [request_util.py (post:58)] - 接口响应状态码: 200
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 10:25:24,996 INFO [utils.logger_util] [request_util.py (post:59)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 11:42:42,100 INFO [utils.logger_util] [request_util.py (post:54)] - 准备开始发起 post 请求, url: login
+2026-05-07 11:42:42,100 INFO [utils.logger_util] [request_util.py (post:55)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 11:42:45,380 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应状态码: 200
+2026-05-07 11:42:45,381 INFO [utils.logger_util] [request_util.py (post:62)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 11:42:45,388 INFO [utils.logger_util] [request_util.py (post:54)] - 准备开始发起 post 请求, url: login
+2026-05-07 11:42:45,388 INFO [utils.logger_util] [request_util.py (post:55)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 11:42:45,466 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应状态码: 200
+2026-05-07 11:42:45,467 INFO [utils.logger_util] [request_util.py (post:62)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 11:42:45,472 INFO [utils.logger_util] [request_util.py (post:54)] - 准备开始发起 post 请求, url: login
+2026-05-07 11:42:45,472 INFO [utils.logger_util] [request_util.py (post:55)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 11:42:45,622 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应状态码: 200
+2026-05-07 11:42:45,623 INFO [utils.logger_util] [request_util.py (post:62)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 17:26:46,135 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,135 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'zhangsan', 'password': '123459'}}
+2026-05-07 17:26:46,357 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,357 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 17:26:46,377 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,377 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,377 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 17:26:46,377 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'lisi', 'password': 'admin12311'}}
+2026-05-07 17:26:46,455 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,455 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,455 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 17:26:46,455 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"登录用户：lisi 不存在","code":500}
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 17:26:46,461 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'adm222in123'}}
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 17:26:46,614 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"用户不存在/密码错误","code":500}
+2026-05-07 17:26:46,620 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,620 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,620 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,620 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: login
+2026-05-07 17:26:46,621 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 17:26:46,621 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 17:26:46,621 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 17:26:46,621 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'json': {'username': 'admin', 'password': 'admin123'}}
+2026-05-07 17:26:46,778 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,778 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,778 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,778 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:46,780 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ"}
+2026-05-07 17:26:46,780 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ"}
+2026-05-07 17:26:46,780 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ"}
+2026-05-07 17:26:46,780 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"操作成功","code":200,"token":"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ"}
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,803 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,804 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,877 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"msg":"请求访问：/mes/md/workstation/list，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:34)] - 准备发起 get 请求, url: mes/md/workstation/list
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,890 INFO [utils.logger_util] [request_util.py (get:35)] - 接口信息: {'params': {'pageNum': 1, 'pageSize': 10, 'workstationName': 'hhh'}, 'headers': {'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6Ijg2YzcwNjdlLWYwMjgtNDI1Yy1hMzRjLTRkZmFmOTIzODUwNSJ9.oBB4YD7QiE7XX6bA4c7UMxS64N0XCpc8k5eQxKHSSKbC-Lbq9wjFkIdtauaBUTeUb3h0XUELKFAYfiAoltk1nQ'}}
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,968 INFO [utils.logger_util] [request_util.py (get:41)] - 接口响应状态码: 200
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:46,969 INFO [utils.logger_util] [request_util.py (get:42)] - 接口响应内容: {"total":1,"rows":[{"searchValue":null,"createBy":"","createTime":"2026-04-08 23:05:58","updateBy":"","updateTime":"2026-04-08 23:07:39","remark":"","params":{},"workstationId":153,"workstationCode":"WS11210","workstationName":"hhh","workstationAddress":"hhh","workshopId":326,"workshopCode":"WS429","workshopName":"hhh","processId":868,"processCode":"PROCESS969","processName":"发光发亮","warehouseId":212,"warehouseCode":"XBK_VIRTUAL","warehouseName":"线边库-虚拟","locationId":213,"locationCode":"XBKKQ_VIRTUAL","locationName":"线边库库区-虚拟","areaId":213,"areaCode":"XBKKW_VIRTUAL","areaName":"线边库库位-虚拟","enableFlag":"Y","attr1":null,"attr2":null,"attr3":0,"attr4":0}],"code":200,"msg":"查询成功"}
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,000 INFO [utils.logger_util] [request_util.py (post:53)] - 准备开始发起 post 请求, url: mes/md/unitmeasure
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,001 INFO [utils.logger_util] [request_util.py (post:54)] - 接口信息: {'data': {'measureCode': '10012', 'measureName': '个', 'primaryFlag': 'Y', 'changeRate': 0, 'enableFlag': 'N'}}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:60)] - 接口响应状态码: 200
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}
+2026-05-07 17:26:47,072 INFO [utils.logger_util] [request_util.py (post:61)] - 接口响应内容: {"msg":"请求访问：/mes/md/unitmeasure，认证失败，无法访问系统资源","code":401}

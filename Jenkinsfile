@@ -39,6 +39,27 @@ pipeline {
         always {
             // 生成 Allure 报告
             allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            
+            // 发送邮件通知
+            emailext (
+                subject: "Jenkins 构建通知: ${env.JOB_NAME} - ${currentBuild.result}",
+                body: """
+                    项目名称: ${env.JOB_NAME}
+                    构建编号: #${env.BUILD_NUMBER}
+                    构建结果: ${currentBuild.result}
+                    构建耗时: ${currentBuild.durationString}
+                    
+                    查看控制台输出:
+                    ${env.BUILD_URL}console
+                    
+                    查看 Allure 报告:
+                    ${env.BUILD_URL}allure
+                    
+                    此邮件由 Jenkins 自动发送，请勿回复。
+                """,
+                to: '1592023616@qq.com'
+            )
+            
             echo "测试执行完成"
         }
         success {
